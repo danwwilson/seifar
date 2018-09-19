@@ -1,0 +1,17 @@
+Package: seifar
+Type: Package
+Title: SEIFA Datasets
+Version: 0.1.0
+Authors@R: c(
+    person("Daniel", "Wilson", , "dan@thedatacollective.com.au", c("aut", "cre")),
+    person(family = "Australian Bureau of Statistics", role = "cph", 
+           comment = "Creator of the raw data through the 2016 Census")
+    )
+Description: Making available Australian Bureau of Statistics data for R users.
+    This data is sourced from the 2016 SEIFA Dataset.
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Depends:
+    R (>= 2.10)
